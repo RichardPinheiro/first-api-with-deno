@@ -1,5 +1,5 @@
 <h1 align="center">
-   First API with [DenoJs](https://deno.land/)
+   First API with DenoJs
 </h1>
 
 <h4 align="center">
@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="#tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-project">Project</a>
 </p>
 
