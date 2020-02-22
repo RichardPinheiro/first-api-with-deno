@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  DenoJs is a new way to JavaScript 
+  DenoJs is a new way to JavaScript on Backend
 </h4>
 
 <p align="center">
