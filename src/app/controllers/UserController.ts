@@ -1,7 +1,7 @@
 import UserService from '../services/UserService'
 
 class UserController {
-    store({ request, response }) {
+    public async store({ request, response }) {
         if (!request.hasBody) {
             response.status = 400
             response.body = { msg: "Invalid user data" }
@@ -21,7 +21,7 @@ class UserController {
         return response.body = { message: "User created", user }
     }
 
-    update({ params, request, response }) {
+    public async update({ params, request, response }) {
         const userId = params.id
 
         if (!userId) {
@@ -43,7 +43,7 @@ class UserController {
         return response.body = { message: "User updated", user }
     }
 
-    delete({ params, response }) {
+    public async delete({ params, response }) {
         const userId = params.id
 
         if (!userId) {
@@ -65,11 +65,11 @@ class UserController {
         return response.body = { message: "User deleted" }
     }
 
-    getUsers({ response }) {
+    public async getUsers({ response }) {
         return response.body = await UserService.getUsers()
     }
 
-    getUserDetails({ params, response }) {
+    public async  getUserDetails({ params, response }) {
         const userId = params.id
 
         if (!userId) {
