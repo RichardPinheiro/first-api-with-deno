@@ -8,6 +8,10 @@ class UserService {
     public async update(userId, userData: User): Promise<void>  {
         return await UserRepository.update(userData)
     }
+
+    public async delete(userId): Promise<void>  {
+        return await UserRepository.delete(userId)
+    }
 }
 
 export default new UserService()
