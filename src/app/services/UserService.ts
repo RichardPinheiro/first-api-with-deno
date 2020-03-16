@@ -12,6 +12,10 @@ class UserService {
     public async delete(userId): Promise<void>  {
         return await UserRepository.delete(userId)
     }
+
+    public async getUsers() {
+        return await UserRepository.getUsers()
+    }
 }
 
 export default new UserService()
