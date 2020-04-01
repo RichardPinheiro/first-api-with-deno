@@ -1,5 +1,5 @@
 <h1 align="center">
-   First API with DenoJs
+   First API with DenoJs :snake:
 </h1>
 
 <h4 align="center">
